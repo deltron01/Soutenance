@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE  hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+ <class name = "dao.Soutenance"  table = "soutenance">
+ <id name = "idS" column = "cpk">
+  <generator class = "native"></generator>
+ </id>
+ <property name = "departement" column = "departement"></property>
+ <property name = "etudiant1" column = "etudiant1"></property>
+ <property name = "etudiant2" column = "etudiant2"></property>
+ <property name = "sujet" column = "sujet"></property>
+ <property name = "encadrant1" column = "encadrant1"></property>
+ <property name = "encadrant2" column = "encadrant2"></property>
+ <property name = "organisme" column = "organisme"></property>
+ <property name = "parrain1" column = "parrain1"></property>
+ <property name = "parrain2" column = "parrain2"></property>
+ <property name = "datesoutenance" column = "datesoutenance"></property>
+ <property name = "lieu" column = "lieu"></property>
+ <property name = "president" column = "president"></property>
+ <property name = "jury1" column = "jury1"></property>
+ <property name = "jury2" column = "jury2"></property>
+ <property name = "jury3" column = "jury3"></property>
+ <property name = "note1" column = "note1"></property>
+ <property name = "note2" column = "note2"></property>
+ <property name = "note3" column = "note3"></property>
+ <property name = "note4" column = "note4"></property>
+ <property name = "note5" column = "note5"></property>
+ </class>
+</hibernate-mapping>
